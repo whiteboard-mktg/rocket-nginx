@@ -2,3 +2,5 @@
 *.ini
 *.conf
 conf.d/
+.history
+.DS_Store
