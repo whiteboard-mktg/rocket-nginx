@@ -4,3 +4,5 @@
 conf.d/
 .history
 .DS_Store
+.vscode
+sftp.json

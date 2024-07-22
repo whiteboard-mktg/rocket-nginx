@@ -108,21 +108,21 @@ class RocketParser {
 			$output = str_replace('#!# QUERY_STRING_CACHE #!#', $query_strings_cache, $output);
 
 			// CSS expiration delay
-			$css_expiration = '30d';
+			$css_expiration = '180d';
 			if (isset($section['css_expiration']) && !empty($section['css_expiration'])) {
 				$css_expiration = $section['css_expiration'];
 			}
 			$output = str_replace('#!# CSS_EXPIRATION #!#', $css_expiration, $output);
 
 			// JS expiration delay
-			$js_expiration = '30d';
+			$js_expiration = '180d';
 			if (isset($section['js_expiration']) && !empty($section['js_expiration'])) {
 				$js_expiration = $section['js_expiration'];
 			}
 			$output = str_replace('#!# JS_EXPIRATION #!#', $js_expiration, $output);
 
 			// Media expiration delay
-			$media_expiration = '30d';
+			$media_expiration = '180d';
 			if (isset($section['media_expiration']) && !empty($section['media_expiration'])) {
 				$media_expiration = $section['media_expiration'];
 			}

@@ -13,7 +13,7 @@
 ; This adds debug headers to help understand what is going on when a problem occurs with the configuration
 ; Expected values: true, false
 ; Default value: false
-debug = false
+debug = true
 
 ; WP-Content folder
 ; Default value: wp-content
@@ -103,10 +103,10 @@ media_extensions = "ico|gif|jpe?g|png|svg|eot|otf|woff|woff2|ttf|ogg|webp"
 
 ; Cache expiration delay
 ; Cache expiration delay for CSS, JS and media files
-; Default value: 30d
-css_expiration = "30d"
-js_expiration = "30d"
-media_expiration = "30d"
+; Default value: 120d
+css_expiration = "120d"
+js_expiration = "120d"
+media_expiration = "120d"
 
 ; Mobile user agents
 ; Mobile user agents regex pattern. By design, a tablet is not a mobile.
