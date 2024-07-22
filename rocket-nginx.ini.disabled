@@ -13,7 +13,7 @@
 ; This adds debug headers to help understand what is going on when a problem occurs with the configuration
 ; Expected values: true, false
 ; Default value: false
-debug = true
+debug = false
 
 ; WP-Content folder
 ; Default value: wp-content
