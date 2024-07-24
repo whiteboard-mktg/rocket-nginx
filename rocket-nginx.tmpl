@@ -279,3 +279,9 @@ location ~* \.(#!# MEDIA_EXTENSIONS #!#)$ {
         rewrite ^(.*) $1.webp;
     }
 }
+###################################################################################################
+# Fonts
+#
+location ~* \.(eot|css|otf|ttf|woff|woff2)$ {
+add_header Access-Control-Allow-Origin *;
+}
