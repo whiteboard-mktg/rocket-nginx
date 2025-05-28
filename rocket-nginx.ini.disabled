@@ -21,7 +21,8 @@ wp_content_folder = wp-content
 
 ; HTML Cache-Control
 ; Cache control header to use for html files
-html_cache_control = "no-cache, no-store, must-revalidate"
+; Default values: no-cache, no-store, must-revalidate
+html_cache_control = "public, max-age=3600"
 
 ; Cookies
 ; Cookies can be specified to avoid serving a cached file. Some plugins may need to bypass the use of a
